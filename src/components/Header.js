@@ -1,12 +1,19 @@
 import React from 'react';
 import logo from '../assets/Logo.svg';
+import './Header.css';
 
-function Header() {
+export function Header() {
     return (
-        <div>
+        <>
             <img src={logo} alt="Logo"></img>
-        </div>
+            <ul className="Links">
+                <li>Home</li>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Reservations</li>
+                <li>Order Online</li>
+                <li>Login</li>
+            </ul>
+        </>
     )
 };
-
-export default Header;

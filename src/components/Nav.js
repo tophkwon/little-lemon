@@ -1,17 +1,15 @@
 import React from 'react';
+import './Nav.css';
 
-function Nav() {
+export function Nav() {
     return (
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order Online</li>
-                <li>Login</li>
-            </ul>
-        </div>
+        <ul className="Navigation">
+            <li>Home</li>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Reservations</li>
+            <li>Order Online</li>
+            <li>Login</li>
+        </ul>
     );
 }
-export default Nav;

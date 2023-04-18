@@ -1,16 +1,12 @@
 import './App.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 
-function App() {
+export default function App() {
   return (
     <>
       <Header />
-      <Nav />
       <Footer />
     </>
   );
 }
-
-export default App;
