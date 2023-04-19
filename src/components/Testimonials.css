@@ -1,3 +1,25 @@
-.TestimonialsSection {
+.Testimonials {
     background-color: #F4CE14;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.TestiMain {
+    display: block;
+}
+
+.TestiReviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+}
+
+.TestiReviews card {
+    background-color: #edefee;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
 }

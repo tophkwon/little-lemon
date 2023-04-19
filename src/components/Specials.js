@@ -6,12 +6,10 @@ import bruschetta from '../assets/bruchetta.svg';
 
 export function Specials() {
     return (
-        <>
-            <section className="Specials">
-                <div className="SpecialsHead">
+        <div className="Specials">
+            <section className="SpecialsHead">
                     <h2>This week's specials!</h2>
                     <button className="btn">Online Menu</button>
-                </div>
             </section>
             <article className="SpecialsContent">
                 <card>
@@ -33,6 +31,6 @@ export function Specials() {
                     <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </card>
             </article>
-        </>
+        </div>
     );
 }

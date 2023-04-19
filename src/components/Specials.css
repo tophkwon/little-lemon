@@ -1,15 +1,16 @@
 .Specials {
     background-color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .SpecialsHead {
     display: grid;
     grid-template-columns: repeat(2, auto);
     align-items: center;
-    margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
 }
 
 .SpecialsHead button {
@@ -20,8 +21,6 @@
 .SpecialsContent {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    margin-left: 5rem;
-    margin-right: 5rem;
 }
 
 .SpecialsContent card {
