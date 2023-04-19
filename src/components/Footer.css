@@ -1,0 +1,21 @@
+  .FooterNav {
+    background-color: #333333;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .FooterLogo {
+    margin-left: 5rem;
+  }
+
+  .FooterNav ul {
+    list-style: none;
+  }
+
+  .FooterNav li {
+    padding: .5rem;
+  }

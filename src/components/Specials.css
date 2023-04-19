@@ -1,0 +1,37 @@
+.Specials {
+    background-color: white;
+}
+
+.SpecialsHead {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.SpecialsHead button {
+    align-items: right;
+    justify-self: end;
+}
+
+.SpecialsContent {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.SpecialsContent card {
+    background-color: #EDEFEE;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.SpecialsContent card img {
+    max-width: 90%;
+}

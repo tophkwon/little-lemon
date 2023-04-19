@@ -1,13 +1,28 @@
-.Navigation {
-    display: inline;
-    margin: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
+.TopNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
 }
 
-.Navigation li {
-    display: inline;
-    margin: 0px 2rem 0px 2rem;
-    overflow-wrap: normal;
+.HeaderLogo {
+    margin-left: 5rem;
+}
+
+.NavLinks {
+    margin: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.NavLinks li {
+    list-style: none;
+    padding: 1rem;
+    display: block;
+    white-space: nowrap;
 }

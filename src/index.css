@@ -4,21 +4,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 90px);
-  grid-template-rows: 1fr;
-  max-width: 100%;
-  margin: 0 auto;
+h1 {
+  font-size: 64pt;
+  margin: 0;
+  padding: 0;
 }
 
-.nav {
-  
+h2 {
+  font-size: 40pt;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: 18pt;
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn {
+  background-color: #F4CE14;
+  padding: 1rem;
+  border-radius: 8px;
+  border-width: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
 }
