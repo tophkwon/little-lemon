@@ -21,13 +21,13 @@
 .SpecialsContent {
     display: grid;
     grid-template-columns: repeat(3, auto);
+    grid-gap: 1rem;
 }
 
 .SpecialsContent card {
+    display: block;
     background-color: #EDEFEE;
     border-radius: 8px;
-    margin-left: 1rem;
-    margin-right: 1rem;
     padding: 1rem;
 }
 

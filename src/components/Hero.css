@@ -1,23 +1,53 @@
 .HeroMain {
     display: grid;
+    grid-auto-flow: column;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
     background-color: #495E57;
     color: white;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .HeroMain {grid-template-columns: 1fr; grid-template-rows: repeat(2,1fr); margin: 0;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .HeroMain {grid-template-columns: 1fr; grid-template-rows: repeat(2,1fr); margin: 0;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .HeroMain {grid-template-columns: 1fr; grid-template-rows: repeat(2,1fr); margin: 0;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .HeroMain {    display: grid; grid-auto-flow: column; grid-template-columns: repeat(2, 1fr); grid-template-rows: 1fr; grid-gap: 1rem;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .HeroMain {    display: grid; grid-auto-flow: column; grid-template-columns: repeat(2, 1fr); grid-template-rows: 1fr; grid-gap: 1rem;}
+  }
 
-.HeroMain img {
-    max-width: 50%;
+.LandingPic {
+    background-image: url(../assets/restauranfood.jpg);
+    background-color: #495E57;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .NameLocale {
     margin-top: 2rem;
     margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .NameLocale p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    max-width: 50%;
 }
 
 .NameLocale button {

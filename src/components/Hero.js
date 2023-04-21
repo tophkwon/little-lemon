@@ -12,7 +12,7 @@ export function Hero() {
                     <p>New for 2023, Little Lemon is now taking online reservations made thru our own website!</p>
                     <button className="btn">Reserve a Table</button>
                 </div>
-                <img src={LandingPic} alt="Hero"></img>
+                <div className="LandingPic"></div>
             </section>
         </>
     );

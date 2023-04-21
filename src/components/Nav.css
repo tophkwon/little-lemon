@@ -3,17 +3,38 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-color: aquamarine;
     color: black;
-}
-
-.HeaderLogo {
     margin-left: 5rem;
-}
+    margin-right: 5rem;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .TopNav {justify-content: space-evenly;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .TopNav {justify-content: space-evenly;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .TopNav {justify-content: space-evenly;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .TopNav {justify-content: space-between;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .TopNav {justify-content: space-between;}
+  }
 
 .NavLinks {
     margin: 0;
-    margin-left: 5rem;
-    margin-right: 5rem;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
