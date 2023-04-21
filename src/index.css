@@ -1,7 +1,3 @@
-.root {
-  min-width: 100%;
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,16 +8,54 @@ body {
   padding: 0;
 }
 
+card {
+  overflow: auto;
+}
+
+div {
+  overflow: auto;
+}
+
 h1 {
   font-size: 64pt;
   margin: 0;
   padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  h1 {font-size: 30pt;}
+}
+@media only screen and (min-width: 600px) {
+  h1 {font-size: 48pt;}
+}
+@media only screen and (min-width: 768px) {
+  h1 {font-size: 48pt;}
+} 
+@media only screen and (min-width: 992px) {
+  h1 {font-size: 64pt;}
+} 
+@media only screen and (min-width: 1200px) {
+  h1 {font-size: 64pt;}
 }
 
 h2 {
   font-size: 40pt;
   margin: 0;
   padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  h2 {font-size: 20pt;}
+}
+@media only screen and (min-width: 600px) {
+  h2 {font-size: 30pt;}
+}
+@media only screen and (min-width: 768px) {
+  h2 {font-size: 30pt;}
+} 
+@media only screen and (min-width: 992px) {
+  h2 {font-size: 40pt;}
+} 
+@media only screen and (min-width: 1200px) {
+  h2 {font-size: 40pt;}
 }
 
 h4 {

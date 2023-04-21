@@ -9,7 +9,7 @@ export function Specials() {
         <div className="Specials">
             <section className="SpecialsHead">
                     <h2>This week's specials!</h2>
-                    <button className="btn">Online Menu</button>
+                    <button className="btn"><b>Online Menu</b></button>
             </section>
             <article className="SpecialsContent">
                 <card>
