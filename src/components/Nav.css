@@ -8,10 +8,10 @@
     margin-right: 5rem;
 }
 @media only screen and (max-width: 600px) {
-  .TopNav {justify-content: space-evenly; margin-left: 1rem; margin-right: 1rem;}
+  .TopNav {justify-content: space-evenly; margin-left: 0rem; margin-right: 0rem;}
 }
 @media only screen and (min-width: 600px) {
-  .TopNav {justify-content: space-evenly; margin-left: 1rem; margin-right: 1rem;}
+  .TopNav {justify-content: space-evenly; margin-left: 0rem; margin-right: 0rem;}
 }
 @media only screen and (min-width: 768px) {
   .TopNav {justify-content: space-evenly; margin-left: 5rem; margin-right: 5rem;}

@@ -1,9 +1,33 @@
+.checked {
+    color: #F4CE14;
+}
+
+.unchecked {
+    color: #495E57;
+}
+
 .Testimonials {
     background-color: #F4CE14;
+}
+
+.TestiSection {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
+}
+@media only screen and (max-width: 600px) {
+    .TestiSection {margin-left: 1rem; margin-right: 1rem;}
+}
+@media only screen and (min-width: 600px) {
+    .TestiSection {margin-left: 1rem; margin-right: 1rem;}
+}
+@media only screen and (min-width: 768px) {
+    .TestiSection {margin-left: 5rem; margin-right: 5rem;}
+} 
+@media only screen and (min-width: 992px) {
+    .TestiSection {margin-left: 5rem; margin-right: 5rem;}
+} 
+@media only screen and (min-width: 1200px) {
+    .TestiSection {margin-left: 5rem; margin-right: 5rem;}
 }
 
 .TestiMain {
@@ -12,14 +36,53 @@
 
 .TestiReviews {
     display: grid;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
     margin-top: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .TestiReviews {    
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 1rem;
+        justify-content: left;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .TestiReviews {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 1rem;}
+}
+@media only screen and (min-width: 768px) {
+    .TestiReviews {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 1rem;}
+} 
+@media only screen and (min-width: 992px) {
+    .TestiReviews {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 1rem;}
+} 
+@media only screen and (min-width: 1200px) {
+    .TestiReviews {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 1rem;}
 }
 
 .TestiReviews card {
     background-color: #edefee;
     border-radius: 8px;
-    margin-left: 1rem;
-    margin-right: 1rem;
     padding: 1rem;
+}
+
+.TopRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
